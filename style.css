@@ -1,0 +1,129 @@
+body {
+    background-color: #679AD3;
+    text-align: center;        
+}
+#wrapper {
+    width: 900px;
+    margin: 0 auto;         
+}
+#content {
+    float: left;
+    font-family: Arial;
+    text-align: left;
+    width: 100%;              
+}
+#menu {
+    float: left;
+    border: 1px solid #000;       
+    clear: both;                
+    width:100%;
+    padding: 30px 30px;
+    margin-bottom: 50px;
+    background-color: #FFF;
+    text-align: left;
+    font-size: 85%;
+}
+#userbar {
+    background-color: #fff;
+    float: right;
+    width: 250px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 40px;
+}
+table a {
+    color: #679AD3;
+}
+td {
+    padding: 5px;
+    color: #679AD3;
+    font-size: 35px;
+}
+td p{
+    color: #000000;
+    font-size: 20px;
+}
+h1{
+    font-family: Arial;
+    color: #FFFFFF;
+    font-size: 80px;
+}
+ 
+h3 {
+    margin: 0;
+    padding: 5px;
+    color: #679AD3;
+    font-size: 35px;
+}
+a:link {
+  text-decoration: none;
+}
+ 
+/* Menu styles */
+.item {
+    background-color: #00728B;
+    border: 1px solid #032472;
+    color: #FFF;
+    font-family: Arial;
+    padding: 3px;
+    text-decoration: none;
+}
+.small {
+    font-size: 75%;
+    color: #373737;
+}
+#footer {
+    font-size: 65%;
+    padding: 3px 0 0 0;
+}
+ 
+.topic-post {
+    height: 100px;
+    overflow: auto;
+}
+ 
+.post-content {
+    padding: 30px; 
+}
+#submit{
+    height: 25px;
+    width: 200px;
+    background-color: #FFEFD5;
+    border-radius: 10px;
+    color: #6EA3D7;
+    font-size: 15px;
+    border: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+#UserN{
+    height: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 2%;
+    border: 0;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+#pass{
+    height: 20px;
+    width: 250px;
+    text-align: center;
+    border-radius: 2%;
+    border: 0;
+     margin-left: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+form{
+    text-align: center;
+    padding: 20px;
+    color: #FFEFD5;
+    background-color: #679AD3;
+    font-size: 22px;
+}
